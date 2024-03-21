@@ -22,3 +22,5 @@ CNN Model using some technecqes as early stopping and regularization
 # Fine-Tuning
 i use these models (VGG16,ResNet50,InceptionV3,DenseNet121)
 # Testing the model with sampels outside the dataset
+# link of demonstrating video
+https://drive.google.com/drive/folders/1hyhStDSJ2vgQNNUr0nbMY5Ohgu0JLg9E
