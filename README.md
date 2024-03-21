@@ -1,16 +1,24 @@
-# Salsh_Task
+## Salsh_Task
+# brief 
 in this task i take screenshots form slash mobile app and classify them to 4 categories(handmade, fashion, cosmetics,accssespries)
-then i make preprocessing on them 
-And make Data Agumentation 
-make some visualization to our data and their Labels
-Define the model architecture
-Compile the model
-Define early stopping to prevent overfitting
-Train the model
-use regulaization to prevent overfitting
-Fine tunning using(VGG16,
-    ResNet50,
-    InceptionV3,
-    DenseNet121)
-    choose the best model(DenseNet121)
-    testing with sampels outside the dataset
+they all about 200 photo and i didnot use scrapping
+# 1-preprocessing:
+-Get list of all image files
+-Extract class labels from file paths
+-Map class labels to integers
+-Convert labels to integers
+-Create DataFrame with file paths and labels
+-Convert label column to string
+-Split data into training and validation sets
+# Create data generators for training and validation
+-Make Data Agumentation (rescale-rotation-width shift-height shift-zoom-flip)
+# make some visualization to our data and their Labels
+# Define the model architecture:
+CNN Model using some technecqes as early stopping and regularization 
+1-Compile the model
+2-Define early stopping to prevent overfitting
+3-Train the model
+4-Evaluate the model
+# Fine-Tuning
+i use these models (VGG16,ResNet50,InceptionV3,DenseNet121)
+# Testing the model with sampels outside the dataset
