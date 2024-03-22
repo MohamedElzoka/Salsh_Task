@@ -1,7 +1,7 @@
 ## Salsh_Task
-# brief 
+# Data-Collection 
 in this task i take screenshots form slash mobile app and classify them to 4 categories(handmade, fashion, cosmetics,accssespries)
-they all about 200 photo and i didnot use scrapping
+they all about 200 photo and i didnot use scrapping but i want to use a technecis for generating images as GANS and AutoEncoder but as i work on local CPU i couldn't and also because of time constrain so i make Data Augumentation 
 # 1-preprocessing:
 -Get list of all image files
 -Extract class labels from file paths
